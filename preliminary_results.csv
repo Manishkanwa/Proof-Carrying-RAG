@@ -1,0 +1,6 @@
+component,metric,result,interpretation
+Retrieval,Hit Rate@5,1.00 (provisional),Previously reported; relevance labels need audit.
+Retrieval,MRR,0.833 (provisional),Previously reported; relevance labels need audit.
+Claim verification pilot,Accuracy,6/8 = 75% (provisional),Small hand-designed set; not a general performance estimate.
+Abstention diagnostic,Agreement,0/7 = 0%,Earlier implementation predicted contradicted for all unanswerable questions.
+Always-abstain reference,Agreement on unanswerable subset,7/7 = 100% by construction,Not a meaningful general metric.
