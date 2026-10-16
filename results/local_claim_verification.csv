@@ -1,0 +1,9 @@
+question_id,claim,ground_truth,prediction,correct,evidence_chunk_id
+16,"In scaled dot-product attention, query-key dot products are multiplied by the square root of the key dimension.",contradicted,insufficient_evidence,False,1_4_1
+17,The Transformer relies on recurrence to process sequences.,contradicted,contradicted,True,1_2_1
+18,"Multi-head attention uses only one learned projection of queries, keys, and values.",contradicted,contradicted,True,1_4_2
+19,DPR encodes questions and passages using exactly the same encoder parameters.,contradicted,contradicted,True,4_3_0
+20,Sentence-BERT requires comparing every pair of sentences with a cross-encoder at search time.,contradicted,insufficient_evidence,False,2_2_3
+21,RAG generates answers without conditioning on retrieved documents.,contradicted,contradicted,True,5_4_4
+22,Positional encoding provides the Transformer with no information about token positions.,contradicted,contradicted,True,1_9_0
+23,Additive attention computes compatibility using a dot product alone.,contradicted,contradicted,True,1_4_2

@@ -1,0 +1,31 @@
+id,question,category
+1,Why does the Transformer eliminate recurrence?,answerable
+2,How does scaled dot-product attention work?,answerable
+3,What is the purpose of multi-head attention?,answerable
+4,How does Bahdanau attention calculate alignment scores?,answerable
+5,What is the difference between sparse and dense retrieval?,answerable
+6,How does RAG combine retrieval and generation?,answerable
+7,How does DPR represent questions and passages?,answerable
+8,Why are sentence embeddings useful for semantic search?,answerable
+9,What is the role of positional encoding?,answerable
+10,How does RAG use retrieved passages to generate answers?,answerable
+11,What is additive attention?,answerable
+12,How is dot-product attention computationally efficient?,answerable
+13,What is the purpose of the encoder-decoder architecture in neural machine translation?,answerable
+14,What is the role of the softmax function in scaled dot-product attention?,answerable
+15,"How are query, key, and value vectors used in attention?",answerable
+16,"In scaled dot-product attention, are query-key dot products multiplied by the square root of the key dimension?",repairable
+17,Does the Transformer rely on recurrence to process sequences?,repairable
+18,"Does multi-head attention use only one learned projection of queries, keys, and values?",repairable
+19,Does DPR encode questions and passages using exactly the same encoder parameters?,repairable
+20,Does Sentence-BERT require comparing every pair of sentences with a cross-encoder at search time?,repairable
+21,Does RAG generate answers without conditioning on retrieved documents?,repairable
+22,Does positional encoding provide the Transformer with no information about token positions?,repairable
+23,Does additive attention compute compatibility using a dot product alone?,repairable
+24,What exact GPU temperature did the authors observe during Transformer training?,insufficient_evidence
+25,What was the electricity cost of training the original RAG model?,insufficient_evidence
+26,What exact salary did each author receive while conducting the research?,insufficient_evidence
+27,What was the authors' private opinion of every competing retrieval system?,insufficient_evidence
+28,What was the precise network latency of every experiment in the DPR paper?,insufficient_evidence
+29,What exact hardware temperature was recorded during Sentence-BERT experiments?,insufficient_evidence
+30,What private discussions led the authors to select their final model architectures?,insufficient_evidence
